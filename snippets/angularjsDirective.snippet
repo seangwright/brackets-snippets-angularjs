@@ -1,0 +1,32 @@
+(function () {
+    'use strict';
+    
+    var directivesModule = angular.module('$${moduleName}');
+    
+    directivesModule.directive('$${directiveName}', $${directiveName});
+    
+    $${directiveName}.$inject = [];
+    
+    function $${directiveName}() {
+        return {
+            restrict: 'A',
+            templateUrl: '$${moduleName}.directives.$${directiveName}.html',
+            replace: false,
+            priority: 0,
+            transclude: false,
+            scope: false,
+            terminal: false,
+            require: false,
+            controller: controller,
+            link: link
+        };
+        
+        function link(scope, elem, attrs, ctrl) {
+            
+        }
+        
+        function controller($scope, $element, $attrs, $transclude, otherInjectables) {
+            
+        }
+    }
+}());

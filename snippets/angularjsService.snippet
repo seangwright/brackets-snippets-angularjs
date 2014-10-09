@@ -1,0 +1,21 @@
+(function () {
+    'use strict';
+    
+    var serviceModule = angular.module('$${moduleName}');
+    
+    serviceModule.service('$${serviceName}', $${serviceName});
+    
+    $${serviceName}.$inject = [];
+    
+    function $${serviceName}() {
+        var service = {};
+        
+        service.method = method;
+        
+        return service;
+        
+        function method() {
+        
+        }
+    }
+}());

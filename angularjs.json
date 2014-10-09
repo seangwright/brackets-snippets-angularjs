@@ -1,0 +1,30 @@
+[
+    {
+        "name": "angular.js controller",
+        "trigger": "ngController",
+        "usage": "ngController moduleName controllerName",
+        "description": "Create an Angular.js controller",
+        "template": "angularjsController.snippet"
+    },
+    {
+        "name": "angular.js service",
+        "trigger": "ngService",
+        "usage": "ngService moduleName serviceName",
+        "description": "Create an Angular.js service",
+        "template": "angularjsService.snippet"
+    },
+    {
+        "name": "angular.js directive",
+        "trigger": "ngDirective",
+        "usage": "ngDirective moduleName directiveName",
+        "description": "Create an Angular.js directive",
+        "template": "angularjsDirective.snippet"
+    },
+    {
+        "name": "angular.js module",
+        "trigger": "ngModule",
+        "usage": "ngModule moduleName",
+        "description": "Create an Angular.js module",
+        "template": "angularjsModule.snippet"
+    }
+]
