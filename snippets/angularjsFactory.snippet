@@ -3,14 +3,16 @@
     
     var serviceModule = angular.module('$${moduleName}');
     
-    serviceModule.service('$${serviceName}', $${serviceName});
+    serviceModule.factory('$${serviceName}', $${serviceName});
     
     $${serviceName}.$inject = [];
     
     function $${serviceName}() {
-        var service = this;
+        var service = {};
         
         service.method = method;
+        
+        return service;
         
         function method() {
         

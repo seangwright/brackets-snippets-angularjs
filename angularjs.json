@@ -7,6 +7,13 @@
         "template": "angularjsController.snippet"
     },
     {
+        "name": "angular.js factory",
+        "trigger": "ngFactory",
+        "usage": "ngFactory moduleName factoryName",
+        "description": "Create an Angular.js factory",
+        "template": "angularjsFactory.snippet"
+    },
+    {
         "name": "angular.js service",
         "trigger": "ngService",
         "usage": "ngService moduleName serviceName",
